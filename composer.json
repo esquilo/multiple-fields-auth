@@ -1,0 +1,55 @@
+{
+    "name": "esquilo/multiple-fields-auth",
+    "type": "library",
+    "description": "This package provides a method of authentication using multiple fields for Laravel.",
+    "keywords": [
+        "esquilo",
+        "multiple-fields-auth",
+        "laravel",
+        "auth",
+        "authentication",
+        "multiple",
+        "fields"
+    ],
+    "homepage": "https://github.com/esquilo/multiple-fields-auth",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ricardo da Silva Nunes",
+            "email": "ricardorichsn@gmail.com",
+            "homepage": "https://keybase.io/esquilo",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.1",
+        "php" : "~5.6|~7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "~4.0||~5.0",
+        "squizlabs/php_codesniffer": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "esquilo\\MultipleFieldsAuth\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "esquilo\\MultipleFieldsAuth\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "check-style": "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests",
+        "fix-style": "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
