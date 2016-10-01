@@ -11,7 +11,7 @@ In Laravel we can choose what field is going to be the username on the authentic
 Via Composer
 
 ``` bash
-$ composer require esquilo/MultipleFieldsAuth
+$ composer require esquilo/multiple-fields-auth
 ```
 
 Then add the service provider in config/app.php:
@@ -58,11 +58,11 @@ If you discover any security related issues, please email ricardorichsn@gmail.co
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/esquilo/MultipleFieldsAuth.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/esquilo/multiple-fields-auth.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/esquilo/MultipleFieldsAuth.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/esquilo/multiple-fields-auth.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/esquilo/MultipleFieldsAuth
-[link-downloads]: https://packagist.org/packages/esquilo/MultipleFieldsAuth
+[link-packagist]: https://packagist.org/packages/esquilo/multiple-fields-auth
+[link-downloads]: https://packagist.org/packages/esquilo/multiple-fields-auth
 [link-author]: https://github.com/esquilo
 [link-contributors]: ../../contributors

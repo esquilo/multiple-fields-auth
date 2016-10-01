@@ -2,7 +2,7 @@
 
 Contributions are **welcome** and will be fully **credited**.
 
-We accept contributions via Pull Requests on [Github](https://github.com/esquilo/MultipleFieldsAuth).
+We accept contributions via Pull Requests on [Github](https://github.com/esquilo/multiple-fields-auth).
 
 
 ## Pull Requests
