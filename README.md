@@ -27,7 +27,7 @@ esquilo\MultipleFieldsAuth\MultipleFieldsAuthServiceProvider::class,
 namespace App\Http\Controllers\Auth;
 
 ...
-use esquilo\MultipleFieldsAuth\MultipleFieldsAuthTrait;
+use esquilo\MultipleFieldsAuth\MultipleFieldsAuth;
 
 class LoginController extends Controller
 {
