@@ -31,7 +31,7 @@ use esquilo\MultipleFieldsAuth\MultipleFieldsAuth;
 
 class LoginController extends Controller
 {
-    use MultipleFieldsAuthTrait;
+    use MultipleFieldsAuth;
 
     protected $usernameFields = ['field1', 'field2', 'field3'];
 }
